@@ -1,0 +1,49 @@
+/* List 1: Unordered List */
+ul li:nth-child(3),
+ul li:nth-child(4) {
+    color: red;
+}
+
+/* List 2: Ordered List */
+ol li:nth-child(2),
+ol li:nth-child(4) {
+    font-size: 24px;
+}
+
+/* Div styling */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+/* Italicize first p in each div */
+div p:first-child {
+    font-style: italic;
+}
+
+/* Second div: Make normal text white */
+div:nth-of-type(2) p {
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: blue;
+}
+
+/* Click effect */
+button:active {
+    border-radius: 0;
+    width: 200px;
+    height: 150px;
+}
